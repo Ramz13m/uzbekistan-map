@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.map{
+  transition: .5s ease;
+}
+
+.map:hover{
+  fill: green;
+  box-shadow: 10px 10px 10px blue;
+  transition: .5s ease;
+}
